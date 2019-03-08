@@ -7,3 +7,5 @@ serve: build-docker-image
 build-docker-image:
 	docker build -t localhost/docker-serve-static .
 
+compile-sass:
+	sass --watch scss/style.scss css/style.css &
