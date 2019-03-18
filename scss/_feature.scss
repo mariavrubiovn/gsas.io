@@ -1,0 +1,51 @@
+/*  Area css
+============================================================================================ */
+.welcome_area{
+	background: url(../img/Alimara/alimaragsasconferenceroom.jpg) no-repeat scroll center center;
+	 //height: 300px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.welcome_inner{
+			padding:15px;
+			background-color: #ffffff;
+			opacity: 0.96;
+	.col-lg-6{
+		vertical-align: middle;
+		align-self: center;
+	}
+}
+.welcome_text{
+	b{
+			color:#00ab6c;
+		}
+	h2{
+		text-align: center;
+		color: $dip;
+		font-size: 40px;
+		text-transform: uppercase;
+		//margin-bottom: 30px;
+	}
+	h3{
+		padding:20px 0px;
+		color: $dip;
+		font-size: 28px;
+		text-transform: uppercase;
+		//margin-bottom: 30px;
+	}
+	p{
+		font-size:16px;
+		text-align: justify;
+		margin-bottom: 10px;
+		//color:#2f2c2b;
+	}
+	.main_btn{
+		//padding: 15px;
+	}
+}
+/* Event Time Area css
+============================================================================================ */

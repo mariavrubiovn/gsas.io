@@ -9,7 +9,7 @@ make serve
 Bernat: 
 
 ```
-cd ~/Desktop/GSAS/landing; make compile-sass
+cd ~/Desktop/GSAS/ideal-guacamole; make compile-sass
 ```
 
 Git:

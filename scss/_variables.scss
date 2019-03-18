@@ -1,0 +1,39 @@
+/*font Variables*/
+$rob: 'Roboto', sans-serif;
+$hee: 'XXX', sans-serif;  
+
+
+/*Color Variables*/
+$baseColor: #6247ea; 
+$dip: #222222;
+$pfont: #777777; 
+
+
+/*=================== fonts ====================*/
+@import url('https://fonts.googleapis.com/css?family=Heebo:300,400,500,700|Roboto:300,400,500,700');
+
+// Mixins
+@mixin transition($property: all, $duration: 300ms, $animate: linear, $delay:0s){
+    transition: $property $duration $animate $delay; 
+}
+
+// Placeholder Mixins
+
+@mixin placeholder {
+  &.placeholder { @content; }
+  &:-moz-placeholder { @content; }
+  &::-moz-placeholder { @content; }
+  &::-webkit-input-placeholder { @content; }
+}
+
+@font-face {
+  font-family: 'Europa';
+  font-style: normal;
+  font-weight: normal;
+  src:
+  url('../fonts/EuropaLight.ttf') format('ttf');
+}
+
+
+
+
