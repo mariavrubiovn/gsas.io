@@ -3589,7 +3589,7 @@ h6 {
 ============================================================================================ */
 /* Event Schedule Area css
 ============================================================================================ */
-.accordion {
+/*.accordion {
     background-color: #f9f9ff;
     cursor: pointer;
     padding: 0px;
@@ -3603,11 +3603,11 @@ h6 {
 
 .active, .accordion:hover {
     background-color: #ccc;
-}
+}*/
 
 .panel {
     padding: 15px 15px;
-    display: none;
+    /*display: none;*/
     background-color: white;
     overflow: hidden;
 }
@@ -3617,9 +3617,9 @@ h6 {
 }
 
 .event_schedule_area p {
-    text-align: left;
-    font-size: 20px;
-    line-height: 30px;
+    text-align: justify;
+    font-size: 27px;
+    line-height: 27px;
 }
 
 
@@ -3666,7 +3666,7 @@ h6 {
 }
 
 .event_schedule_inner .tab-pane {
-    background: #f9f9ff;
+    background: #ffffff;
 }
 
 .event_schedule_inner .tab-pane .media {
@@ -3681,9 +3681,13 @@ h6 {
 
 .event_schedule_inner .tab-pane .media img {
     background-color: rgba(123, 247, 152, 0.1);
-    border-radius: 40%;
-    max-width: 65px;
-    max-height: 65px;
+    border-radius: 35%;
+    max-width: 68px;
+    max-height: 68px;
+}
+.event_schedule_inner .tab-pane .media .cafeine img{
+    border-radius:25%;
+    max-width: 70px;
 }
 
 .event_schedule_inner .tab-pane .media .media-body h5 {
