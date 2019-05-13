@@ -3618,7 +3618,7 @@ h6 {
 
 .event_schedule_area p {
     text-align: justify;
-    font-size: 27px;
+    font-size: 17px;
     line-height: 27px;
 }
 
@@ -3684,6 +3684,7 @@ h6 {
     border-radius: 35%;
     max-width: 68px;
     max-height: 68px;
+    margin-left:-12px;
 }
 .event_schedule_inner .tab-pane .media .cafeine img{
     border-radius:25%;
