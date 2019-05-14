@@ -1336,9 +1336,6 @@ html {
     .comments-area {
         padding: 50px 8px;
     }
-    .sponsorimages img{
-    margin-bottom: 30px !important;
-    }
     .sponsor_text h2{
         padding: 20px 0px !important;
     }
@@ -1370,7 +1367,11 @@ html {
         line-height: 24px !important;
     }
 }
-
+@media (max-width: 800px){
+.sponsorimages img{
+    margin-bottom: 30px !important;
+    }
+}
 .comments-area h4 {
     text-align: center;
     margin-bottom: 50px;
@@ -3739,7 +3740,7 @@ h6 {
     font-family: "XXX", sans-serif;
     font-weight: bold;
     color: #222222;
-    text-transform: uppercase;
+    text-transform: none;
 }
 
 .event_schedule_inner .tab-pane .media .media-body p {
