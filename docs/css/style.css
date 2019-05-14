@@ -1337,7 +1337,7 @@ html {
         padding: 50px 8px;
     }
     .sponsorimages img{
-    margin-bottom: 30px;
+    margin-bottom: 30px !important;
     }
     .sponsor_text h2{
         padding: 20px 0px !important;
