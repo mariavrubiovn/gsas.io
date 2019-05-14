@@ -1336,6 +1336,11 @@ html {
     .comments-area {
         padding: 50px 8px;
     }
+    .request_btn{
+        padding: 0px 7px;
+        font-size: 16px;
+        line-height: 40px;
+    }
     body .event_schedule_inner .tab-pane .media{
         padding: 15px 0px !important;
     }
