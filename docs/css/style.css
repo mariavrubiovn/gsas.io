@@ -1371,6 +1371,10 @@ html {
 .sponsorimages img{
     margin-bottom: 30px !important;
     }
+    .event_schedule_inner .nav-tabs li p{
+    line-height: 50px !important;
+    font-size: 25px !important;
+    }
 }
 .comments-area h4 {
     text-align: center;
