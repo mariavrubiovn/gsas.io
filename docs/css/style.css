@@ -1327,10 +1327,36 @@ html {
     padding: 50px 30px;
     margin-top: 50px;
 }
+.event_schedule_inner .tab-pane .media .media-body .schedule-name{
 
+    font-size:22px; 
+    color:green;
+}
 @media (max-width: 414px) {
     .comments-area {
         padding: 50px 8px;
+    }
+    body .event_schedule_inner .tab-pane .media{
+        padding: 15px 0px;
+        text-transform: none;
+    }
+    body .event_schedule_inner .tab-pane .media .media-body h4{
+        font-size: 18px;
+        padding-right: 7px;
+    }
+    body .event_schedule_inner .tab-pane .media img{
+        max-width: 40px;
+        margin-left: -19px;
+    }
+    .event_schedule_inner .tab-pane .media .media-body .schedule-name{
+        font-size: 17px;
+    }
+    .event_schedule_inner .tab-pane .media .cafeine img{
+        max-width: 55px;
+    }
+    .event_schedule_inner p{
+        font-size: 15px;
+        line-height: 24px;
     }
 }
 
