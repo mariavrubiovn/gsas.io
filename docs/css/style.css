@@ -1314,6 +1314,9 @@ html {
 .single-post-area .navigation-area .nav-right:hover .thumb img {
     opacity: 0.5;
 }
+.sponsorimages img{
+    max-width:200px;
+}
 
 @media (max-width: 991px) {
     .single-post-area .sidebar-widgets {
