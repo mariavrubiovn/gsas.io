@@ -1315,6 +1315,7 @@ html {
     opacity: 0.5;
 }
 .sponsorimages img{
+    transition: all .2s ease-in-out;
     max-width:200px;
 }
 .sponsorimages img:hover{
