@@ -1317,6 +1317,9 @@ html {
 .sponsorimages img{
     max-width:200px;
 }
+.sponsorimages img:hover{
+    transform:scale (1.1);
+}
 
 @media (max-width: 991px) {
     .single-post-area .sidebar-widgets {
