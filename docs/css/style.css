@@ -396,6 +396,7 @@ html {
 .home_banner_area .banner_inner {
     width: 100%;
     display: flex;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .home_banner_area .banner_inner .container {
@@ -404,7 +405,6 @@ html {
 }
 
 .home_banner_area .banner_inner .banner_content {
-    background-color: rgba(0, 0, 0, 0.3);
     vertical-align: middle;
     align-self: center;
     text-align: center;
