@@ -182,6 +182,129 @@ button:focus {
     opacity: 0.6;
 }
 
+/*--================Galeria IMG GSAS =================--*/
+
+.fila_img > .columna_img {
+  padding: 4px;
+}
+
+.fila_img:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.columna_img {
+  float: left;
+  width: 33%;
+}
+
+/* The Modal (background) */
+.modaller {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modaller-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.cerrar {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.cerrar:hover,
+.cerrar:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.misSlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*--================END Galeria IMG GSAS =================--*/
+
 /* End Main Title Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
@@ -389,8 +512,9 @@ html {
     z-index: 1;
     min-height: 900px;
     display: flex;
-    background: url(../img/gsas-header.jpg) no-repeat scroll center center;
+    background: url(../img/gsas6-1.jpg) no-repeat scroll center center;
     background-size: cover;
+    
 }
 
 .home_banner_area .banner_inner {
@@ -402,9 +526,11 @@ html {
 .home_banner_area .banner_inner .container {
     vertical-align: middle;
     align-self: center;
+    /*background-color: rgba(0, 0, 0, 0.75);*/
 }
 
 .home_banner_area .banner_inner .banner_content {
+    /*background-color: rgba(0, 0, 0, 0.75);*/
     vertical-align: middle;
     align-self: center;
     text-align: center;
@@ -3782,7 +3908,9 @@ h6 {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.welcome_area .container{
+    background-color: rgba(0, 0, 0, 0.6);
+}
 .welcome_inner {
     padding: 15px;
     background-color: #ffffff;

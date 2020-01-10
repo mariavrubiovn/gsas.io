@@ -404,7 +404,7 @@ html {
 }
 
 .home_banner_area .banner_inner .banner_content {
-    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
     vertical-align: middle;
     align-self: center;
     text-align: center;
