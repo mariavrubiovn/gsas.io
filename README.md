@@ -6,10 +6,10 @@ make serve
 ```
 
 
-Bernat: 
+## Guia d'ús
 
 ```
-cd ~/Desktop/GSAS/ideal-guacamole; make compile-sass
+cd ~/Desktop/gsas.io
 ```
 
 Git:
@@ -21,13 +21,13 @@ git add .
 git commit -m "$MISSATGE que explica què has fet" ## "Ara el títol porta la font correcta"
 ```
 
-  Per compartir els teus canvis:
+  Per compartir els teus canvis (implica actualitzar la web gsas.io):
 
 ```
 git push
 ```
 
-  Per actualitzar el teu fitxer:
+  Per actualitzar el teu fitxer (de la web o d'un altre company):
   
 ```
 git pull
