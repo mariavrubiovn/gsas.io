@@ -512,7 +512,10 @@ html {
     z-index: 1;
     min-height: 900px;
     display: flex;
-    background: url(../img/gsas6-1.jpg) no-repeat scroll center center;
+    background: url(../img/gsas6-1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     
 }
@@ -1447,7 +1450,11 @@ html {
     opacity: 0.5;
 }
 .sponsorimages img{
+    transition: all .2s ease-in-out;
     max-width:200px;
+}
+.sponsorimages img:hover{
+    transform:scale(1.1);
 }
 
 @media (max-width: 991px) {
@@ -4060,23 +4067,8 @@ body.modal-open #gsascodeofconduct {
 .team_item .team_img {
     cursor: pointer;
     position: relative;
-    /*overflow: hidden;
-    transition: filter 0.5s ease-in-out;
-    -webkit-filter: grayscale(100%);
-     Ch 23+, Saf 6.0+, BB 10.0+ 
-    filter: grayscale(100%);
-     FF 35+ */
 }
 
-.team_item .team_img .hover {
-    position: absolute;
-    left: 0px;
-    width: 100%;
-    bottom: -70px;
-    text-align: center;
-    transition: all 300ms linear 0s;
-    background: rgba(255, 255, 255, 0.5);
-}
 .team_item .team_img .speakers_socialmedia a{
     font-size: 20px;
     color: #222222;
