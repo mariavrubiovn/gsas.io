@@ -1501,7 +1501,7 @@ img.pull-right {
   .schedule-listing:hover .schedule-slot-title {
     color: #212121; }
   .schedule-listing:nth-of-type(even) .schedule-slot-time {
-    background: #00ab6c; }
+    background: rgba(0, 171, 108, 0.8); }
   .schedule-listing.launce .schedule-slot-time {
     padding: 40px 28px; }
   .schedule-listing.launce .schedule-slot-title {
