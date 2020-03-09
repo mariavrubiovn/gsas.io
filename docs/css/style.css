@@ -1479,7 +1479,24 @@ img.pull-right {
     border: 1px dashed #e5e5e5;
     border-left: none;
     width: 100%; }
+    .schedule-listing .schedule-slot-special {
+    position: relative;
+    padding: 35px 40px 35px 170px;
+    border: 1px dashed #e5e5e5;
+    border-left: none;
+    width: 100%; }
     .schedule-listing .schedule-slot-info .schedule-slot-speakers {
+      position: absolute;
+      left: 40px;
+      top: 0;
+      height: 80px;
+      width: 80px;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -ms-border-radius: 50%;
+      bottom: 0;
+      margin: auto; }
+    .schedule-listing .schedule-slot-special .schedule-slot-speakers {
       position: absolute;
       left: 40px;
       top: 0;
@@ -1492,11 +1509,19 @@ img.pull-right {
       margin: auto; }
     .schedule-listing .schedule-slot-info .schedule-slot-title {
       font-size: 24px; }
+      .schedule-listing .schedule-slot-special .schedule-slot-title {
+      font-size: 24px; }
       .schedule-listing .schedule-slot-info .schedule-slot-title strong {
         font-size: 14px;
         color: #888888;
         margin-left: 12px; }
+        .schedule-listing .schedule-slot-special .schedule-slot-title strong {
+        font-size: 14px;
+        color: #888888;
+        margin-left: 12px; }
     .schedule-listing .schedule-slot-info p {
+      margin-bottom: 0; }
+      .schedule-listing .schedule-slot-special p {
       margin-bottom: 0; }
   .schedule-listing:hover .schedule-slot-title {
     color: #212121; }
