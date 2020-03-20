@@ -1473,6 +1473,7 @@ img.pull-right {
     .schedule-listing .schedule-slot-time span {
       display: block;
       line-height: 26px; }
+
   .schedule-listing .schedule-slot-info {
     position: relative;
     padding: 35px 40px 35px 170px;
@@ -1507,6 +1508,7 @@ img.pull-right {
       -ms-border-radius: 50%;
       bottom: 0;
       margin: auto; }
+     
     .schedule-listing .schedule-slot-info .schedule-slot-title {
       font-size: 24px; }
       .schedule-listing .schedule-slot-special .schedule-slot-title {
@@ -1533,6 +1535,8 @@ img.pull-right {
     float: left;
     margin-bottom: 0; }
   .schedule-listing.launce .schedule-slot-info-content img {
+    float: right; }
+    .schedule-listing.launce .schedule-slot-special-content img {
     float: right; }
 
 .schedule-listing-btn {
@@ -2307,6 +2311,158 @@ img.pull-right {
         color: #fff; }
       .newsletter-form .email-form-group .form-control::placeholder {
         color: #fff; }
+
+/*==========================
+      modal area
+===========================*/
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 99;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: black;
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Black w/ opacity */
+}
+
+.modal-dialog {
+    top: 50%;
+    transform: translateY(-50%) !important;
+    max-width: 750px;
+}
+
+.modal-content {
+    overflow-y: scroll;
+    max-height: 80vh;
+}
+
+.modal-backdrop {
+    z-index: -1;
+}
+
+.modal-message .modal-dialog {
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) !important;
+    margin: 0px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.modal-message .modal-dialog .modal-content .modal-header {
+    text-align: center;
+    display: block;
+    border-bottom: none;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.modal-message .modal-dialog .modal-content .modal-header .close {
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    padding: 0px;
+    color: #fff;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.modal-message .modal-dialog .modal-content .modal-header h2 {
+    display: block;
+    text-align: center;
+    color: #6247ea;
+    padding-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+}
+
+.modal-message .modal-dialog .modal-content .modal-header p {
+    display: block;
+}
+
+.modal-message .modal-dialog {
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) !important;
+    margin: 0px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.modal-message .modal-dialog .modal-content .modal-header {
+    text-align: center;
+    display: block;
+    border-bottom: none;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.modal-message .modal-dialog .modal-content .modal-header .close {
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    padding: 0px;
+    color: #fff;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.modal-message .modal-dialog .modal-content .modal-header h2 {
+    display: block;
+    text-align: center;
+    color: #6247ea;
+    padding-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+}
+
+.modal-message .modal-dialog .modal-content .modal-header p {
+    display: block;
+}
+
+.modal-content {
+    overflow-y: scroll;
+    max-height: 80vh;
+
+    }
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    width: 95%;
+}
+
+.modal-content h3 {
+    color: #00ab6c;
+    text-align: left;
+    padding: 20px 0px;
+}
+
+.modal-content p {
+    text-align: justify;
+    margin-bottom: 5px;
+}
+
+.modal-content p:last-child {
+    margin-bottom: -5px;
+}
+
+
 
 /*================================
       ts-footer
