@@ -1339,7 +1339,7 @@ img.pull-right {
     background-position: center center; }
 
 .ts-exp-wrap {
-  background: #1c1a4f;
+  background: #00ab6c;
   min-height: 480px;
   position: relative; }
   .ts-exp-wrap:before {
@@ -3215,6 +3215,10 @@ faq-item
 
 .widget {
   margin-bottom: 50px; }
+
+.hidden {
+  display: none;
+  }
 
 .ts-form .form-control {
   height: 50px;
