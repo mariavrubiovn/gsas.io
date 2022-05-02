@@ -1474,6 +1474,7 @@ img.pull-right {
       display: block;
       line-height: 26px; }
 
+    
   .schedule-listing .schedule-slot-info {
     position: relative;
     padding: 35px 40px 35px 170px;
@@ -1497,6 +1498,17 @@ img.pull-right {
       -ms-border-radius: 50%;
       bottom: 0;
       margin: auto; }
+      .schedule-listing .schedule-slot-info .schedule-slot-group {
+        position: absolute;
+        left: 40px;
+        top: 0;
+        height: 135px;
+        width: 80px;
+        border-radius: 0%;
+        -webkit-border-radius: 0%;
+        -ms-border-radius: 0%;
+        bottom: 0;
+        margin: auto; }
     .schedule-listing .schedule-slot-special .schedule-slot-speakers {
       position: absolute;
       left: 40px;
@@ -1508,6 +1520,17 @@ img.pull-right {
       -ms-border-radius: 50%;
       bottom: 0;
       margin: auto; }
+      .schedule-listing .schedule-slot-special .schedule-slot-group  {
+        position: absolute;
+        left: 40px;
+        top: 0;
+        height: 135px;
+        width: 80px;
+        border-radius: 0%;
+        -webkit-border-radius: 0%;
+        -ms-border-radius: 0%;
+        bottom: 0;
+        margin: auto; }
      
     .schedule-listing .schedule-slot-info .schedule-slot-title {
       font-size: 24px; }
@@ -1645,6 +1668,21 @@ img.pull-right {
     background-image: -webkit-linear-gradient(315deg, #82e182 0%, #0acbf5 100%);
     background-image: -o-linear-gradient(315deg, #82e182 0%, #0acbf5 100%);
     background-image: linear-gradient(135deg, #82e182 0%, #0acbf5 100%); }
+
+    .schedule-tabs-item .schedule-listing-item .schedule-slot-group {
+      position: absolute;
+      top: 60px;
+      width: 50px;
+      height: 84px;
+      border-radius: 0%;
+      -webkit-border-radius: 0%;
+      -ms-border-radius: 0%;
+      -webkit-box-shadow: 19.799px 19.799px 40px 0px rgba(0, 0, 0, 0.1);
+      box-shadow: 19.799px 19.799px 40px 0px rgba(0, 0, 0, 0.1);
+      background-image: -webkit-linear-gradient(315deg, #82e182 0%, #0acbf5 100%);
+      background-image: -o-linear-gradient(315deg, #82e182 0%, #0acbf5 100%);
+      background-image: linear-gradient(135deg, #82e182 0%, #0acbf5 100%); }
+
   .schedule-tabs-item .schedule-listing-item:before {
     position: absolute;
     top: -30px;
