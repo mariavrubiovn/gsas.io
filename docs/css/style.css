@@ -2097,6 +2097,64 @@ img.pull-right {
   .ts-intro-sponsors .sponsors-logo img {
     margin: 0 38px 50px; }
 
+
+    .ts-sponsors .sponsor-title {
+      font-size: 26px;
+      margin-bottom: 40px;
+      padding-left: 17px;
+      position: relative;
+    }
+    .ts-sponsors .sponsor-title::before {
+      content: "";
+      height: 40px;
+      width: 40px;
+      position: absolute;
+      left: 0px;
+      top: -5px;
+      z-index: -1;
+    }
+    .ts-sponsors .sponsor-title.green-bg::before {
+      background: #25cd44;
+    }
+    .ts-sponsors .sponsor-title.yello-bg::before {
+      background: #FFD700;
+    }
+    .ts-sponsors .sponsor-title.silver-bg::before {
+      background: #C0C0C0;
+    }
+    .ts-sponsors .sponsor-title.bronze-bg::before {
+      background: #CD7F32;
+    }
+    .ts-sponsors .sponsor-title.supporters-bg::before {
+      background: #508ad6;
+    }
+    .ts-sponsors .sponsor-title.media-bg::before {
+      background: #ae5ef0;
+    }
+    .ts-sponsors .sponsors-logo {
+      min-height: 125px;
+      padding: 0 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      border: 1px solid #eaeaea;
+      margin-bottom: 30px;
+    }
+    .ts-sponsors .sponsors-logo img {
+      filter: grayscale(100%);
+    }
+    .ts-sponsors .sponsors-logo:hover img {
+      filter: none;
+    }
+    .ts-sponsors.sponsors-border {
+      padding: 0;
+    }
+    .ts-sponsors.sponsors-border .sponsors-wrap {
+      border-bottom: 1px solid #2e2b72;
+    }    
+
 /*==========================
       map direction
 ============================*/
