@@ -48,6 +48,8 @@
 */
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i");
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500&display=swap"');
 /* ============================== */
 /* Typography
 ================================================== */
@@ -65,20 +67,24 @@ h4,
 h5,
 h6 {
   color: #1c1c24;
-  font-family: 'Roboto', sans-serif; }
+  font-family: "Poppins", sans-serif;
+}
 
 h1, h2 {
-  font-family: 'Raleway', sans-serif; }
+  font-family: "Poppins";
+}
 
 h1 {
   font-size: 36px;
   line-height: 36px;
-  font-weight: 900; }
+  font-weight: 900;
+  font-family: "Poppins"; }
 
 h2 {
   font-size: 30px;
   line-height: 36px;
-  font-weight: 700; }
+  font-weight: 700;
+  font-family: "Poppins"; }
 
 h3 {
   font-size: 24px;
@@ -308,6 +314,7 @@ img.pull-right {
 
 .section-title,
 .column-title {
+  font-family: "Poppins";
   font-size: 36px;
   font-weight: 800;
   color: #212121;
@@ -363,7 +370,8 @@ img.pull-right {
     right: auto; }
 
 .ts-title {
-  font-size: 24px; }
+  font-size: 24px;
+  font-family: "Poppins"; }
 
 .hidden-title {
   position: absolute;
@@ -605,6 +613,7 @@ img.pull-right {
     margin-bottom: 30px; }
   .banner-6 .banner-item .banner-content-wrap .banner-title {
     font-size: 74px;
+    font-family: "Poppins";
     color: #212121;
     font-weight: 800;
     text-transform: initial;
@@ -621,6 +630,7 @@ img.pull-right {
     .banner-6 .banner-item .banner-content-wrap .banner-info h3 {
       margin-bottom: 0;
       color: #212121;
+      font-family: "Poppins";
       font-size: 16px;
       font-weight: 500;
       padding: 8px 0 0; }
@@ -711,6 +721,7 @@ img.pull-right {
       margin-bottom: 10px;
       color: #fff; }
     .banner-item .banner-content-wrap .banner-title {
+      font-family: "Poppins";
       font-size: 64px;
       font-weight: 800;
       color: #fff;
@@ -1984,6 +1995,7 @@ img.pull-right {
     box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.05); }
     .ts-blog .post .post-body .entry-header .entry-title {
       font-size: 24px;
+      font-family: "Poppins";
       font-weight: 700; }
   .ts-blog .post:hover .post-body {
     -webkit-box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.1);
