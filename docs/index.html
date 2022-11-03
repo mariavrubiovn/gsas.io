@@ -54,36 +54,7 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
       <![endif]-->
-      <script>
-         // Set the date we're counting down to
-         var countDownDate = new Date("Oct 3, 2022 09:00:00").getTime();
-         
-         // Update the count down every 1 second
-         var x = setInterval(function() {
-         
-           // Get today's date and time
-           var now = new Date().getTime();
-         
-           // Find the distance between now and the count down date
-           var distance = countDownDate - now;
-         
-           // Time calculations for days, hours, minutes and seconds
-           var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-           var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-           var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-           var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-         
-           // Display the result in the element with id="demo"
-           document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-           + minutes + "m " + seconds + "s ";
-         
-           // If the count down is finished, write some text
-           if (distance < 0) {
-             clearInterval(x);
-             document.getElementById("demo").innerHTML = "EXPIRED";
-           }
-         }, 1000);
-         </script>
+      
 </head>
 
 <body>
@@ -141,29 +112,7 @@
                         
                         <p class="banner-info wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="500ms">October 3-4, 2022</p>
                         <h1 class="banner-title wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="600ms">Global Software Architecture Summit</h1>
-                        <div class="counter-item">
-                           <i class="icon icon-ring-1Asset-1"></i>
-                           <span class="days">0</span>
-                           <div class="smalltext">Days</div>
-
-                        </div>
-                        <div class="counter-item">
-                           <i class="icon icon-ring-4Asset-3"></i>
-                           <span class="hours">0</span>
-                           <div class="smalltext">Hours</div>
-                        </div>
-                        <div class="counter-item">
-                           <i class="icon icon-ring-3Asset-2"></i>
-                           <span class="minutes">0</span>
-                           <div class="smalltext">Minutes</div>
-                        </div>
-                        <div class="counter-item">
-                           <i class="icon icon-ring-4Asset-3"></i>
-                           <span class="seconds">0</span>
-                           <div class="smalltext">Seconds</div>
-                        </div>
-                     </div>
-                     <!-- Countdown end -->
+                        
 
                         <div class="banner-btn wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="700ms">
                            <a href="#pricing" class="btn">Buy Ticket</a>
@@ -2539,9 +2488,9 @@ Mainly in banks and insurance companies, but also in customer-centric e-commerce
                      <div class="copyright-text text-center">
                          <p><a href="mailto:gsas@apiumhub.com">Email</a>&nbsp;&nbsp;&nbsp;
                            <a href="tel:0034934815085">Phone</a></p>
-                          <p> <a href="#" data-toggle="modal" data-target="#privacypolicy">Privacy Policy</a>&nbsp;&nbsp;&nbsp;
-                           <a href="#" data-toggle="modal" data-target="#codeofconduct">Code of Conduct</a>&nbsp;&nbsp;&nbsp;
-                           <a href="#" data-toggle="modal" data-target="#cancellationpolicy">Cancellation Policy</a>
+                          <p> <a href="#privacypolicy" data-toggle="modal" data-target="#privacypolicy">Privacy Policy</a>&nbsp;&nbsp;&nbsp;
+                           <a href="#codeofconduct" data-toggle="modal" data-target="#codeofconduct">Code of Conduct</a>&nbsp;&nbsp;&nbsp;
+                           <a href="#cancellationpolicy" data-toggle="modal" data-target="#cancellationpolicy">Cancellation Policy</a>
                         </p>
                          <div class="modal fade" id="privacypolicy" tabindex="-1" role="dialog" aria-hidden="true">
                 <div class="modal-dialog" role="document">
@@ -2556,8 +2505,8 @@ Mainly in banks and insurance companies, but also in customer-centric e-commerce
 
                         <p>APIUMHUB SL<br/>
                         VAT number B25762477<br/>
-                        Plaza Urquinaona 1, Principal 2ª<br/>
-                        08010 Barcelona</p>
+                        Passeig de Gràcia 28, 4o<br/>
+                        08007 Barcelona</p>
 
                         <p>The use of the website and the application is subject to the following conditions of use. Please read them carefully.</p>
 
