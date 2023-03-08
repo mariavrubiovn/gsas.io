@@ -1,0 +1,676 @@
+<!-- ts experience start-->
+<section id="schedule" class="ts-schedule">  
+    <div class="container">
+       <div class="row">
+          <div class="col-lg-8 mx-auto">
+             <h2 class="section-title">
+                <span>Schedule Details</span>
+                Event Schedule
+             </h2>
+             <div class="ts-schedule-nav">
+                <ul class="nav nav-tabs justify-content-center" role="tablist">
+                   <li class="nav-item">
+                      <a class="active" title="Click Me" href="#date1" role="tab" data-toggle="tab">
+                               <h3>October 3rd</h3>
+                               <span>Day 1</span>
+                             </a>
+                   </li>
+                   <li class="nav-item">
+                      <a class="" href="#date2" title="Click Me" role="tab" data-toggle="tab">        <h3>October 4th</h3>
+                                <span>Day 2</span>
+                            </a>
+                   </li>
+                </ul>
+                <!-- Tab panes -->
+             </div>
+          </div><!-- col end-->
+
+       </div><!-- row end-->
+       <div class="row">
+          <div class="col-lg-12">
+             <div class="tab-content schedule-tabs">
+                   <div role="tabpanel" class="tab-pane active" id="date1">
+                      <div class="schedule-listing launce">
+                         <div class="schedule-slot-time">
+                            <span> 08:00 - 09:00</span>
+                         </div>
+                         <div class="schedule-slot-info">
+                            <img class="schedule-slot-speakers" src="images/speakers/register.jpg" alt="">
+                            <div class="schedule-slot-info-content">
+                               <h3 class="schedule-slot-title">Registration</h3>
+                            </div>
+                            <!--Info content end -->
+                         </div><!-- Slot info end -->
+                      </div>
+                      <!--schedule-listing end -->
+                      <div class="schedule-listing launce">
+                         <div class="schedule-slot-time">
+                            <span> 09:00 - 09:15</span>
+                         </div>
+                         <div class="schedule-slot-info">
+                            <img class="schedule-slot-speakers" src="images/speakers/opening.jpg" alt="">
+                            <div class="schedule-slot-info-content">
+                               <h3 class="schedule-slot-title">GSAS 2022 Opening Ceremony
+                               
+                               </h3>
+                            </div>
+                            <!--Info content end -->
+                         </div><!-- Slot info end -->
+                      </div>
+                      <!--schedule-listing end -->
+                      <div class="schedule-listing launce">
+                         <div class="schedule-slot-time">
+                            <span> 09:15 - 09:20</span>
+                         </div>
+                         <div class="schedule-slot-info">
+                            <img class="schedule-slot-speakers" src="images/speakers/inspirational.jpg" alt="">
+                            <div class="schedule-slot-info-content">
+                               <h3 class="schedule-slot-title">Inspirational talk by Gold Sponsor
+                               </h3>
+                            </div>
+                            <!--Info content end -->
+                         </div><!-- Slot info end -->
+                      </div>
+                      <!--schedule-listing end -->
+                      <div class="schedule-listing">
+                         <div class="schedule-slot-time">
+                            <span> 09:20 - 10:10</span>
+                         </div>
+                         <div class="schedule-slot-info">
+                            <a href="#markrichards">
+                                                  <img class="schedule-slot-speakers" src="images/speakers/markrichards.jpeg" alt="">
+                                              </a>
+                            <div class="schedule-slot-info-content">
+                               <h3 class="schedule-slot-title"> Testing Software Architecture
+                                  <strong>by Mark Richards</strong>
+                               </h3>
+                               <p>How to architects know the weight limits of a bridge?” asked Devon. “Well,” said Logan, “they continue to drive heavier and heavier trucks over the bridge until it collapses. Then they measure the weight of the last truck and post that weight on the rebuilt bridge”. “Oh, I guess that makes sense.” said Devon.</p><p>Software developers continuously test their source code using unit and functional tests to ensure the code works properly and contains no defects. But how does one test a software architecture? It turns out that testing a software architecture is just as important as testing your source code. In this session Mark Richards talks about what it means to test a software architecture. Mark starts out the session by discussing what things to test to ensure the architecture is structurally sound and that it’s meeting the designated goals of the business. He then shows how to construct various unit tests for software architecture using custom techniques as well as through common open source tools. </p>
+                            </div>
+                            <!--Info content end -->
+                         </div><!-- Slot info end -->
+                      </div>
+                      <!--schedule-listing end -->
+                      <div class="schedule-listing">
+                         <div class="schedule-slot-time">
+                            <span> 10:10 - 11:00</span>
+                         </div>
+                         <div class="schedule-slot-info">
+                         
+                            <a href="#sonyanatanzon">
+                                              <img class="schedule-slot-group" src="images/speakers/sonyavladik.png" alt="">
+                            </a>
+                            <div class="schedule-slot-info-content">
+                               <h3 class="schedule-slot-title">Pragmatic Approach to Architecture Metrics
+                                  <strong>by Sonya Natanzon & Vladik Khononov</strong>
+                               </h3>
+                               <p>A question we have all heard is: “How do you measure success?” Those metrics can look different for different industries or professions, but they are rooted in hard measurable outcomes: larger revenue for a bank, bigger market share for an automaker, reduced readmission rate for a hospital chain. Those numbers are easy to put on a chart in an executive presentation. But what about software architecture? Measuring success of software architecture is difficult because software architecture is all about long-term effects, positive or negative. Software architecture metrics are hard to define and even harder to evaluate objectively. As soon as a metric becomes a goal, it ceases to be a good metric (think “number of lines of code”). And we know all too well that software architecture is subject to frequent changes - no other industry moves as fast. However, we still need to be able to set goal posts, measure outcomes and present them to executives - in a practical way.</p><p>As Eliyahu Goldratt famously said, “Tell me how you measure me, and I will tell you how I will behave”. Focusing on low-level metrics can do more harm than good. A metric’s value becomes the end goal, rather than achieving the desired business outcomes. To fix this, let’s reverse the process. We are going to start by defining the business outcomes we want to achieve. The outcomes we are going to focus on are the ability to run a cost-effective system and ability to evolve it quickly and easily. Foundational to those objectives is the capacity to manage the complexity of the system. In this talk, we are going to explore several simple and pragmatic approaches to architectural metrics that support the required business outcomes.</p>
+                            </div>
+                            <!--Info content end -->
+                         </div><!-- Slot info end -->
+                      </div>
+                      <!--schedule-listing end -->
+                      <div class="schedule-listing launce">
+                         <div class="schedule-slot-time">
+                            <span> 11:00 - 11:30</span>
+                         </div>
+                         <div class="schedule-slot-info">
+                            <img class="schedule-slot-speakers" src="images/speakers/coffee.jpg" alt="">
+                            <div class="schedule-slot-info-content">
+                               <h3 class="schedule-slot-title">Coffee Break
+                               
+                               </h3>
+                            </div>
+                            <!--Info content end -->
+                         </div><!-- Slot info end -->
+                      </div>
+                      <!--schedule-listing end -->
+                      <div class="schedule-listing">
+                         <div class="schedule-slot-time">
+                            <span> 11:30 - 12:20</span>
+                         </div>
+                         <div class="schedule-slot-info">
+                            <a href="#alexandervonzitzewitz">
+                                                  <img class="schedule-slot-speakers" src="images/speakers/alexandervonzitzewitz.jpg" alt="">
+                                              </a>
+                            <div class="schedule-slot-info-content">
+                               <h3 class="schedule-slot-title">Metrics for Architects
+                                  <strong>by Alexander von Zitzewitz</strong>
+                               </h3>
+                               <p>Software metrics can be used effectively to judge the maintainability and architectural quality of a code base. Even more importantly, they can be used as canaries in a coal mine to warn early about dangerous accumulations of architectural and technical debt. Alexander von Zitzewitz introduces some key metrics that every architect should know (e.g., average component dependency, propagation cost, structural debt index, and more). You will learn how to use these metrics effectively within a metric-based feedback loop, so that your code never end up as a big ball of mud.</p>
+                            </div>
+                            <!--Info content end -->
+                         </div><!-- Slot info end -->
+                      </div>
+                      <!--schedule-listing end -->
+                      <div class="schedule-listing launce">
+                         <div class="schedule-slot-time">
+                            <span> 12:20 - 13:10</span>
+                         </div>
+                            <div class="schedule-slot-info">
+                               <img class="schedule-slot-speakers" src="images/speakers/sven.jpg" alt="">
+
+                               <div class="schedule-slot-info-content">
+                                  <h3 class="schedule-slot-title">The Effective Software Architect - Work Smarter, not Harder
+                                     <strong>by Sven Peters</strong>
+                                  </h3>
+                                  <p>We’re agile, we’re doing DevOps, we work in cross-functional teams, and we use the latest developer pipeline tooling. With all those methodologies and technologies we should be highly effective, right? Probably not. Most of us still struggle with balancing coding speed and quality, working on the stuff that really makes a difference, and feeling constantly stressed by all the things we should learn.
+
+                                     Effective software architects don't just create clean, simple, and robust code. They also have a strong understanding of the entire development process and the problem that needs to be solved. They take time to learn, practice, and play.
+                                     
+                                     Learn how those software architects build effective coding habits, think about the outcome first, reserve time for deep work, and much more. You’ll walk away from this talk with lots of ideas on how to work smarter, not harder.</p>
+                               </div>
+                            <!--Info content end -->
+                           </div><!-- Slot info end -->
+                      </div>
+                      <!--schedule-listing end -->
+                      <div class="schedule-listing launce">
+                         <div class="schedule-slot-time">
+                            <span> 13:10 - 14:30</span>
+                         </div>
+                         <div class="schedule-slot-info">
+                            <img class="schedule-slot-speakers" src="images/speakers/lunch.jpg" alt="">
+
+                            <div class="schedule-slot-info-content">
+                               <h3 class="schedule-slot-title">Lunch Break
+                               </h3>
+
+                            </div>
+                            <!--Info content end -->
+                         </div><!-- Slot info end -->
+                      </div>
+                      <!--schedule-listing end -->
+                      <div class="schedule-listing">
+                         <div class="schedule-slot-time">
+                             <span> 14:30 - 19:00</span>
+                            Parallel Workshop with Coffee Break
+                         </div>
+                         <div class="schedule-slot-info">
+                 
+                          <img class="schedule-slot-speakers" src="images/speakers/joaorosa.jpeg"/>
+                   
+                            <div class="schedule-slot-info-content">
+                               <h3 class="schedule-slot-title">Evolving organisations using sociotechnical architecture
+                                  <strong>by João Rosa</strong>
+                               </h3>
+                               <p>"Change is the only constant in life.". You might recognise it. The saying is from Heraclitus, a Greek philosopher. The organisation you work with is changing. You don't understand why, nor your manager can explain it. Our brains like routine, and it feels like we control our lives. But more than we would like, we are faced with change.
+
+                                  Organisations constantly evolve, sometimes with intention, and other times grab an opportunity. Often, those changes have side effects: they can affect people practices, teams mission and organisations processes. Is there a way where we can be prepared for such changes?
+                                  
+                                  From my experience, yes, we can be prepared for those changes. And we can use one of the oldest human skills: visualisations. To be more specific, we can combine different visualisations to discuss, reason and communicate change. It doesn't matter your role in an organisation; it is possible to use visualisations to discuss other points of view and the different options and trade-offs.
+                                  
+                                  This hands-on will take you through evolving an organisation by using different visualisations such as Wardley Maps, Context Maps, and Team Topologies. We will start with a Wardley Map to create the context for everyone and have a series of exercises to evolve the organisation using other visualisations such as Context Map and Team Topologies. By doing it, you will be creating and evolving the sociotechnical architecture of the organisation. At the end of the session, you will have experienced the different visualisations and combined them. More importantly, how to visualise change and tame the brain.</p>
+
+                            </div>
+                            <!--Info content end -->
+                         </div><!-- Slot info end -->
+                      </div>
+                      <!--schedule-listing end -->
+                      <div class="schedule-listing">
+                         <div class="schedule-slot-time">
+                             <span> 14:30 - 19:00</span>
+                             Parallel Workshop with Coffee Break
+                         </div>
+                         <div class="schedule-slot-info">
+                            <a href="#georgefairbanks">
+                            <img class="schedule-slot-group" src="images/speakers/fairbanks_keeling.png" alt=""></a>
+
+                            <div class="schedule-slot-info-content">
+                               <h3 class="schedule-slot-title">Become a software design company
+                                  <strong>by George Fairbanks & Michael Keeling</strong>
+                               </h3>
+                               <p>Software companies want to be good at software design but the topic is complex and deadlines are pressing.  Michael and George have had success at various companies and can show you how to replicate that success at yours.  We will describe activities, formats, culture changes, and outrageous obstacles.  We will prepare you for a difficult journey by showing you how to prepare and how to respond. The session is a mixture of small lectures, group exercises, story telling, and group discussions.</p>
+
+                            </div>
+                            <!--Info content end -->
+                         </div><!-- Slot info end -->
+                      </div>
+                      <!--schedule-listing end -->
+                      
+                      <div class="schedule-listing">
+                         <div class="schedule-slot-time">
+                             <span> 14:30 - 19:00</span>
+                             Parallel Workshop with Coffee Break
+                         </div>
+                         <div class="schedule-slot-info">
+                 
+                          <img class="schedule-slot-speakers" src="images/speakers/nathanielschutta.jpg"/>
+                   
+                            <div class="schedule-slot-info-content">
+                               <h3 class="schedule-slot-title">Thinking Architecturally
+                                  <strong>by Nathaniel Schutta</strong>
+                               </h3>
+                               <p>Rich Hickey once said programmers know the benefits of everything and the trade offs of nothing…an approach that can lead a project down a path of frustrated developers and unhappy customers. As architects though, we must consider the trade offs of every new library, language, pattern or approach and quickly make decisions often with incomplete information. How should we think about the inevitable technology choices we have to make on a project? How do we balance competing agendas? How do we keep our team happy and excited without chasing every new thing that someone finds on the inner webs?
+                                  As architects it is our responsibility to effectively guide our teams on the technology journey. In this talk I will outline the importance of trade offs, how we can analyze new technologies and how we can effectively capture the inevitable architectural decisions we will make. I will also explore the value of fitness functions as a way of ensuring the decisions we make are actually reflected in the code base.</p>
+
+                            </div>
+                            <!--Info content end -->
+                         </div><!-- Slot info end -->
+                      </div>
+                      <!--schedule-listing end -->
+                      
+                   </div>
+                   <div role="tabpanel" class="tab-pane" id="date2">
+                      <div class="schedule-listing launce">
+                         <div class="schedule-slot-time">
+                            <span> 08:30 - 09:00</span>
+                         </div>
+                         <div class="schedule-slot-info">
+                            <img class="schedule-slot-speakers" src="images/speakers/register.jpg" alt="">
+                            <div class="schedule-slot-info-content">
+                               <h3 class="schedule-slot-title">Registration
+                                
+                               </h3>
+                            </div>
+                            <!--Info content end -->
+                         </div><!-- Slot info end -->
+                      </div>
+                      <!--schedule-listing end -->
+                      <div class="schedule-listing launce">
+                         <div class="schedule-slot-time">
+                            <span> 09:00 - 09:15</span>
+                         </div>
+                         <div class="schedule-slot-info">
+                            <img class="schedule-slot-speakers" src="images/speakers/opening.jpg" alt="">
+                            <div class="schedule-slot-info-content">
+                               <h3 class="schedule-slot-title">Opening
+                               
+                               </h3>
+                            </div>
+                            <!--Info content end -->
+                         </div><!-- Slot info end -->
+                      </div>
+                      <!--schedule-listing end -->
+                      <div class="schedule-listing launce">
+                         <div class="schedule-slot-time">
+                            <span> 09:15 - 09:20</span>
+                         </div>
+                         <div class="schedule-slot-info">
+                            <img class="schedule-slot-speakers" src="images/speakers/inspirational.jpg" alt="">
+                            <div class="schedule-slot-info-content">
+                               <h3 class="schedule-slot-title">Inspirational talk by GSAS Sponsor
+                               </h3>
+                            </div>
+                            <!--Info content end -->
+                         </div><!-- Slot info end -->
+                      </div>
+                      <!--schedule-listing end -->
+                      <div class="schedule-listing">
+                         <div class="schedule-slot-time">
+                            <span> 09:20 - 10:10</span>
+                         </div>
+                         <div class="schedule-slot-info">
+                            <a href="nealford">
+                                                  <img class="schedule-slot-speakers" src="images/speakers/nealford.jpg" alt="">
+                                              </a>
+                            <div class="schedule-slot-info-content">
+                               <h3 class="schedule-slot-title">The intersection of architecture fitness functions and metrics
+                                  <strong>by Neal Ford</strong>
+                               </h3>
+                               <p>Differentiating casual metrics evaluation from teams incorporating them into common engineering practices, enabling differing levels of automated architecture governance.</p>
+                            </div>
+                            <!--Info content end -->
+                         </div><!-- Slot info end -->
+                      </div>
+                      <!--schedule-listing end -->
+                      <div class="schedule-listing">
+                         <div class="schedule-slot-time">
+                            <span> 10:10 - 11:00</span>
+                         </div>
+                         <div class="schedule-slot-info">
+                            <a href="#eswaranthandi">
+                                                  <img class="schedule-slot-speakers" src="images/speakers/EswaranThandi.jpg" alt="">
+                                              </a>
+                            <div class="schedule-slot-info-content">
+                               <h3 class="schedule-slot-title">Continuous Modernization
+                                  <strong>by Eswaran Thandi</strong>
+                               </h3>
+                               <p>Modernization of legacy System Landscape in phased manner.</p>
+                            </div>
+                            <!--Info content end -->
+                         </div><!-- Slot info end -->
+                      </div>
+                      <!--schedule-listing end -->
+                      <div class="schedule-listing launce">
+                         <div class="schedule-slot-time">
+                            <span> 11:00 - 11:30</span>
+                         </div>
+                         <div class="schedule-slot-info">
+                            <img class="schedule-slot-speakers" src="images/speakers/coffee.jpg" alt="">
+                            <div class="schedule-slot-info-content">
+                               <h3 class="schedule-slot-title">Coffee Break
+                               
+                               </h3>
+                            </div>
+                            <!--Info content end -->
+                         </div><!-- Slot info end -->
+                      </div>
+                      <!--schedule-listing end -->
+                      <div class="schedule-listing">
+                         <div class="schedule-slot-time">
+                            <span> 11:30 - 12:20</span>
+                         </div>
+                         <div class="schedule-slot-info">
+                            <a href="#reneweiss">
+                                                  <img class="schedule-slot-group" src="images/speakers/riccardo_marc.jpg" alt="">
+                                              </a>
+                            <div class="schedule-slot-info-content">
+                               <h3 class="schedule-slot-title">How is an architect's success measured in a fast-growing, agile, strategy-driven organization?
+                                  <strong>by Riccardo Zanussi & Marc de Palol</strong>
+                               </h3>
+                               <p>In large, established companies, an architect usually has a clearly defined role and clearly defined titles: application architect or system architect, solution architect, and enterprise architect. In smaller companies, the three roles are merged.
+                                  But in this company, an architect must find a way to overcome the independence of individual development teams. It is their job to make their own architectural decisions to link overall solutions and business decisions to strategy. This should not slow down the delivery of new functionality, which is essential to drive growth (considering that delivery is managed by a different part of the IT organization).
+                                  What is the role of the architects? How can we measure the architect's impact on the company's growth and strategy? </p>
+                            </div>
+                            <!--Info content end -->
+                         </div><!-- Slot info end -->
+                      </div>
+                      <!--schedule-listing end -->
+                      <div class="schedule-listing">
+                         <div class="schedule-slot-time">
+                            <span> 12:20 - 13:10</span>
+                         </div>
+                         <div class="schedule-slot-info">
+                                                  <img class="schedule-slot-speakers" src="images/speakers/Michael_Feathers.jpg" alt="">                                                                    
+                            <div class="schedule-slot-info-content">
+                               <h3 class="schedule-slot-title">Aligning Architecture with Responsibility Indices
+                                  <strong>by Michael Feathers</strong>
+                               </h3>
+                               <p>In large and complex software systems, the allocation of responsibilities to different parts of architecture is a key concern. Over time responsibilities can span across multiple parts inappropriately and the parts themselves can become overburdened with too many responsibilities. In this talk, Michael Feathers will describe a lightweight process for creating Responsibility Indices, models that index into information specific to each responsibility in a system: quality measures, refactoring plans, and strategy-based rules for change. By considering responsibilities more primary than physical location in code, teams are able to bring code and responsibility into alignment and track information needed for effective decision making that enhances cohesion over time.</p>
+                            </div>
+                            <!--Info content end -->
+                         </div><!-- Slot info end -->
+                      </div>
+                      <!--schedule-listing end -->
+                      <div class="schedule-listing launce">
+                         <div class="schedule-slot-time">
+                            <span> 13:10 - 14:20</span>
+                         </div>
+                         <div class="schedule-slot-info">
+                            <img class="schedule-slot-speakers" src="images/speakers/lunch.jpg" alt="">
+
+                            <div class="schedule-slot-info-content">
+                               <h3 class="schedule-slot-title">Lunch Break
+                               </h3>
+       
+                            </div>
+                            <!--Info content end -->
+                         </div><!-- Slot info end -->
+                      </div>
+                      <!--schedule-listing end -->
+                      <div class="schedule-listing">
+                         <div class="schedule-slot-time">
+                            <span> 14:20 - 15:10</span>
+                         </div>
+                         <div class="schedule-slot-info">
+                            <a href="#carolalilienthal">
+                                                  <img class="schedule-slot-speakers" src="images/speakers/carolalilienthal.jpg" alt="">
+                                              </a>
+                            <div class="schedule-slot-info-content">
+                               <h3 class="schedule-slot-title">Improve your architecture with the Modularity Maturity Index (MMI)
+                                  <strong>by Carola Lilienthal</strong>
+                               </h3>
+                               <p>In the last 20 years, a lot of time and money has gone into software systems that have been implemented in modern programming languages such as Java, C#, PHP etc. The focus in the development projects was often on the quick implementation of features and not on the quality of the software architecture. This practice has led to an increasing amount of technical debt – which is unnecessary complexity that cost extra money in maintenance – accumulating over time. Today these systems have to be called legacy systems, because their maintenance and expansion is expensive, tedious and unstable. This talk discusses how to measure the amount of technical debt aka unnecessary complexity with the modularity maturity index. The modularity maturity index (MMI) of a code base or the different applications in an IT landscape gives management and teams a guideline for deciding which software systems need to be refactored, which ones should be replaced, and which ones don&#39;t need to worry
+                                  about. The goal is to find out which technical debt should be resolved so that the architecture becomes sustainable and maintenance less expensive.</p>
+                            </div>
+                            <!--Info content end -->
+                         </div><!-- Slot info end -->
+                      </div>
+                      <!--schedule-listing end -->
+                      <div class="schedule-listing">
+                         <div class="schedule-slot-time">
+                            <span> 15:10 - 16:00</span>
+                         </div>
+                         <div class="schedule-slot-info">
+                            <a href="#christianciceri">
+                                                  <img class="schedule-slot-speakers" src="images/speakers/christianciceri.jpg" alt="">
+                                              </a>
+                            <div class="schedule-slot-info-content">
+                               <h3 class="schedule-slot-title">Private Builds and Metrics to survive not ideal scenarios
+                                  <strong>by Christian Ciceri</strong>
+                               </h3>
+                               <p>Many people think of software architecture as a craft, but I understand it more as a science. Scientists tend to measure things as a basis for further reasoning. Even when you can’t get precise numbers, mathematical approaches to software architecture depend on measurable quantities, like metrics and indicators. Sometimes such approaches depend on which metrics make sense and which do not in a given situation. How can you make sure that your KPIs are providing  the information your organization needs to make decisions about how to invest time and effort?
+                                  Getting to great metrics requires a well-assembled system and a whole lot of work. But the truth is, you might not be working with a well-assembled system, or perhaps your organization has yet to put in the effort it takes to get all the way to fantastic metrics based on DevOps best practices.  DevOps is a cultural shift; it’s easy to misunderstand the concept, and companies don’t always commit to adopting best practices fully. Even when that’s the goal, learning and implementing them is a process that takes time. Reality is not always a best-case scenario, and standard metrics do not always reflect the real problem. </p>
+                            </div>
+                            <!--Info content end -->
+                         </div><!-- Slot info end -->
+                      </div>
+                      <!--schedule-listing end -->
+                      <div class="schedule-listing launce">
+                         <div class="schedule-slot-time">
+                            <span> 16:00 - 16:30</span>
+                         </div>
+                         <div class="schedule-slot-info">
+                            <img class="schedule-slot-speakers" src="images/speakers/coffee.jpg" alt="">
+                            <div class="schedule-slot-info-content">
+                               <h3 class="schedule-slot-title">Coffee Break
+                               
+                               </h3>
+                            </div>
+                            <!--Info content end -->
+                         </div><!-- Slot info end -->
+                      </div>
+                      <!--schedule-listing end -->
+
+                      <div class="schedule-listing">
+                         <div class="schedule-slot-time">
+                            <span> 16:30 - 17:20</span>
+                         </div>
+                         <div class="schedule-slot-info">
+                            <a href="#jacquiread">
+                                                  <img class="schedule-slot-speakers" src="images/speakers/JacquiRead.jpg" alt="">
+                                              </a>
+                            <div class="schedule-slot-info-content">
+                               <h3 class="schedule-slot-title">Mastering Visual Communication for Software Architecture
+                                  <strong>by Jacqui Read</strong>
+                               </h3>
+                               <p>Reusable communication design patterns. Communicating software architecture is a crucial aspect of being a successful software architect, however, this is a skill you don't get taught. Learning by trial and error is not ideal, so how do you create inclusive diagrams and visuals that successfully communicate to your audience? Apply communication design patterns and recognise antipatterns. The purpose of a diagram is to successfully communicate with the audience, which sounds deceptively simple. Communication design patterns can be applied to guide you towards this ultimate goal of successful communication, and towards maximum inclusion for your audience. In this session, learn from a hands-on solution architect - and thought leader in communication design and documentation - how to tailor your visuals to your audience, choose the most appropriate standards (or not) and level of detail, and apply patterns to improve accessibility for all audiences. 
+                               </p>
+                            </div>
+                            <!--Info content end -->
+                         </div><!-- Slot info end -->
+                      </div>
+                      <!--schedule-listing end -->
+                      <div class="schedule-listing">
+                         <div class="schedule-slot-time">
+                            <span> 17:20 - 18:10</span>
+                         </div>
+                         <div class="schedule-slot-info">
+                            <a href="#pranjalbathia">
+                                                  <img class="schedule-slot-speakers" src="images/speakers/pranjalbathia.jpg" alt="">
+                                              </a>
+                            <div class="schedule-slot-info-content">
+                               <h3 class="schedule-slot-title">Quantitative measures for software Architecture quality evaluation
+                                  <strong>by Pranjal Bathia</strong>
+                               </h3>
+                               <p>Building an architecture of the system is a tedious task, especially in large projects. The success of the system is dependent on the quality of the proposed architecture. Hence it is important to have quantitative measures to evaluate the quality of the proposed architecture.
+
+                                  Traditionally metrics like availability, reliability, security, adaptability, and risk management are used to measure the quality of architecture. Most of these attributes are either qualitative or become quantitative only after the implementation of the given architecture. Finding the true value of the architecture without quantitative data is inefficient and makes it hard for organizations to plan effectively.
+                                  
+                                  In this session, I would like to talk about some simple methods we can apply to capture baseline quantitative data for certain architectural attributes and make effective decisions about the quality of the proposed architecture.  </p>
+                            </div>
+                            <!--Info content end -->
+                         </div><!-- Slot info end -->
+                      </div>
+                      <!--schedule-listing end -->
+                      <div class="schedule-listing launce">
+                         <div class="schedule-slot-time">
+                            <span> 18:10 - 18:40</span>
+                         </div>
+                            <div class="schedule-slot-info">
+                               <img class="schedule-slot-speakers" src="images/speakers/qa.jpg" alt="">
+
+                               <div class="schedule-slot-info-content">
+                                  <h3 class="schedule-slot-title">Q&A Session
+                                   
+                                  </h3>
+                                  
+                               </div>
+                            <!--Info content end -->
+                           </div><!-- Slot info end -->
+                      </div>
+                      <!--schedule-listing end -->
+                      <div class="schedule-listing launce">
+                         <div class="schedule-slot-time">
+                            <span> 18:40 - 19:10</span>
+                         </div>
+                         <div class="schedule-slot-info">
+                            <img class="schedule-slot-speakers" src="images/speakers/closing.jpg" alt="">
+
+                            <div class="schedule-slot-info-content">
+                               <h3 class="schedule-slot-title">Closing Ceremony
+                               </h3>
+                              
+                            </div>
+                            <!--Info content end -->
+                         </div><!-- Slot info end -->
+                      </div>
+                      <!--schedule-listing end -->
+                      <div class="schedule-listing launce">
+                         <div class="schedule-slot-time">
+                            <span> 19:10 - 20:00</span>
+                         </div>
+                         <div class="schedule-slot-info">
+                            <img class="schedule-slot-speakers" src="images/speakers/beer.jpg" alt="">
+
+                            <div class="schedule-slot-info-content">
+                               <h3 class="schedule-slot-title">Beer & Networking
+                               </h3>
+                               
+                            </div>
+                            <!--Info content end -->
+                         </div><!-- Slot info end -->
+                      </div>
+                      <!--schedule-listing end -->
+                      
+                      
+
+                      <!--schedule-listing end -->
+                   </div>
+
+                </div>
+          </div>
+       </div>
+    </div><!-- container end-->
+ </section>
+ <!-- ts experience end-->
+ <!-- ts workshop start-->
+            
+ <section id="workshops" class="ts-blog section-bg">
+    <div class="container">
+       <div class="row">
+          <div class="col-lg-12">
+             <h2 class="section-title">
+                <span>Choose your parallel session</span>
+                Workshops
+             </h2>
+          </div><!-- col end-->
+       </div><!-- row end-->
+ 
+       <div class="row">
+          <div class="col-lg-4">
+             <div class="post">
+                <div class="post-media post-image">
+                   <a href="#"><img src="images/gallery/Workshop_JoaoRosa.png" class="img-fluid" alt=""></a>
+                </div>
+
+                <div class="post-body">
+                   <div class="post-meta">
+                      <span class="post-author">
+                           <a href="#">WORKSHOP INCLUDED</a>
+                         </span>
+
+                   </div>
+                   <div class="entry-header">
+                      <h3 class="entry-title">
+                         Workshop: Evolving organisations using sociotechnical architecture
+                      </h3>
+                   </div><!-- header end -->
+
+                   <div class="entry-content">
+                      <p>by João Rosa</p>
+                   </div>
+
+                   <div class="post-footer">
+                      <p>FULL WORKSHOP</p>
+                   </div>
+                   <div class="w3-light-grey">
+                      <div class="w3-green" style="height:24px;width:99%"></div>
+                    </div>
+                    
+                </div><!-- post-body end -->
+                
+             </div><!-- post end-->
+          </div><!-- col end-->
+          <div class="col-lg-4">
+             <div class="post">
+                <div class="post-media post-image">
+                   <a href="#"><img src="images/gallery/Workshop_George&Michael.png" class="img-fluid" alt=""></a>
+                </div>
+
+                <div class="post-body">
+                   <div class="post-meta">
+                      <span class="post-author">
+                           <a href="#">WORKSHOP INCLUDED</a>
+                         </span>
+
+                   </div>
+                   <div class="entry-header">
+                      <h3 class="entry-title">
+                         Workshop: Become a software design company
+                      </h3>
+                   </div><!-- header end -->
+
+                   <div class="entry-content">
+                </br>   </br> 
+                      <p>by George Fairbanks & Michael Keeling</p>
+                   </div>
+
+                   <div class="post-footer">
+                      <p>FULL WORKSHOP</p>
+                   </div>
+                   <div class="w3-light-grey">
+                      <div class="w3-green" style="height:24px;width:99%"></div>
+                    </div>
+                   
+                </div><!-- post-body end -->
+                
+             </div><!-- post end-->
+          </div><!-- col end-->
+          <div class="col-lg-4">
+             <div class="post">
+                <div class="post-media post-image">
+                   <a href="#"><img src="images/gallery/Workshop_Nathaniel.png" class="img-fluid" alt=""></a>
+                </div>
+
+                <div class="post-body">
+                   <div class="post-meta">
+                      <span class="post-author">
+                           <a href="#">WORKSHOP INCLUDED</a>
+                         </span>
+
+                   </div>
+                   <div class="entry-header">
+                      <h3 class="entry-title">
+                         Workshop: Thinking Architecturally
+                      </h3>
+                   </div><!-- header end -->
+
+                   <div class="entry-content">
+                    
+                   </br>   </br> 
+                      <p>by Nathaniel Schutta</p>
+                   </div>
+                   <div class="post-footer">
+                      <p>FULL WORKSHOP</p>
+                   </div>
+                   <div class="w3-light-grey">
+                      <div class="w3-green" style="height:24px;width:100%"></div>
+                    </div>
+                   
+
+                </div><!-- post-body end -->
+                
+             </div><!-- post end-->
+          </div><!-- col end-->
+       </div><!-- row end-->
+    </div><!-- container end-->
