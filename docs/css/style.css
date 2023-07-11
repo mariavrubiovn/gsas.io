@@ -1344,13 +1344,13 @@ img.pull-right {
   overflow: hidden;
   background: ; }
   .ts-experiences .exp-img {
-    min-height: 510px;
+    min-height: 518px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center; }
 
 .ts-exp-wrap {
-  background: #00ab6c;
+  background: #f9fafc;
   min-height: 480px;
   position: relative; }
   .ts-exp-wrap:before {
@@ -1368,10 +1368,10 @@ img.pull-right {
     width: 100%;
     height: 100%;
     content: '';
-    background-image: -webkit-gradient(linear, left top, right top, from(#666666), color-stop(51%, #00ab6c), color-stop(100%, #00ab6c), to(#7bf697));
-    background-image: -webkit-linear-gradient(left, #666666 0%, #00ab6c 51%, #7bf697 100%, #7bf697 100%);
-    background-image: -o-linear-gradient(left, #666666 0%, #00ab6c 51%, #7bf697 100%, #7bf697 100%);
-    background-image: linear-gradient(90deg, #666666 0%, #00ab6c 51%, #7bf697 100%, #7bf697 100%); 
+    background-image: -webkit-gradient(linear, left top, right top, from(#f9fafc), color-stop(51%, #f9fafc), color-stop(100%, #f9fafc), to(#f9fafc));
+    background-image: -webkit-linear-gradient(left, #f9fafc 0%, #f9fafc 51%, #f9fafc 100%, #f9fafc 100%);
+    background-image: -o-linear-gradient(left, #f9fafc 0%, #f9fafc 51%, #f9fafc 100%, #f9fafc 100%);
+    background-image: linear-gradient(90deg, #f9fafc 0%, #f9fafc 51%, #f9fafc 100%, #f9fafc 100%); 
     opacity: 0.302; }
   .ts-exp-wrap .ts-exp-content {
     max-width: 560px;
@@ -1379,20 +1379,20 @@ img.pull-right {
     position: relative;
     z-index: 1; }
     .ts-exp-wrap .ts-exp-content .column-title {
-      color: #fff;
+      color: rgb(0, 0, 0);
       font-weight: 600;
       margin-bottom: 10px; }
       .ts-exp-wrap .ts-exp-content .column-title span {
-        color: #fff; }
+        color: rgb(0, 0, 0); }
       .ts-exp-wrap .ts-exp-content .column-title:after {
         display: none; }
     .ts-exp-wrap .ts-exp-content p {
       margin-bottom: 30px;
-      color: #fff; }
+      color: rgb(2, 2, 2); }
       .ts-exp-wrap .ts-exp-content p strong {
         font-size: 48px;
         font-weight: 700;
-        color: #fff; }
+        color: rgb(16, 15, 15); }
       .ts-exp-wrap .ts-exp-content p span {
         font-size: 14px;
         font-weight: 400;
