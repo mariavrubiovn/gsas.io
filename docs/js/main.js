@@ -25,7 +25,38 @@
 
 jQuery(function ($) {
 
+   /**-------------------------------------------------
+    *Testimonial Slider
+    *----------------------------------------------------**/
+   $('.testimonial-slider').owlCarousel({
+		loop:true,
+      autoplay: true,
+		margin:10,
+		items: 2,
+      dots: false,
+      nav: true,
+      navText: [
+         '<i class="icon-chevron-left"></i>', '<i class="icon-chevron-right"></i>'
+      ],
+      autoplaySpeed: 1000,
+      navSpeed: 1000,
 
+		responsive:{
+			0:{
+				items:1,
+				nav:false
+         },
+         
+			767:{
+				items:1,
+				nav:true
+         },
+         
+         1200: {
+            item: 2
+         }
+		}
+	});
 
    /**-------------------------------------------------
     *Fixed HEader
@@ -59,7 +90,7 @@ jQuery(function ($) {
 
    if ($('.countdown').length > 0) {
       $(".countdown").jCounter({
-         date: '03 October 2022 09:00:00',
+         date: '21 October 2020 12:00:00',
          fallback: function () {
             console.log("count finished!")
          }

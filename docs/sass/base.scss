@@ -24,7 +24,12 @@
 
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500&display=swap"');
 /* ============================== */
 
 
@@ -37,12 +42,11 @@
 
 
 
-body,
-p {
+body {
     font-family: 'Roboto', sans-serif;
     line-height: 26px;
     font-size: 16px;
-    color: #888888;
+    color: $body-color;
 }
 
 h1,
@@ -52,10 +56,10 @@ h4,
 h5,
 h6 {
     color: #1c1c24;
-    font-family: 'Roboto', sans-serif;
+    font-family: $poppins;
 }
 h1,h2 {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Poppins";
 }
 h1 {
     font-size: 36px;
@@ -82,6 +86,10 @@ h5 {
     line-height: 24px;
 }
 
+p {
+   font-size: 16px;
+}
+
 /* Global styles
 ================================================== */
 
@@ -104,6 +112,11 @@ ul{
    margin: 0;
    
 }
+
+li {
+   list-style-type: none;
+}
+
 a:link,
 a:visited {
     text-decoration: none;
@@ -127,10 +140,13 @@ a.read-more:hover {
    background: #161362;
    color: $white-color;
 }
+.body-inner {
+   padding: 0 60px;
+}
 
 section,
 .section-padding {
-    padding: 100px 0;
+    padding: 145px 0;
     position: relative;
 }
 .section-bg{
@@ -168,6 +184,11 @@ section,
 .mb-30{
    margin-bottom: 30px;
 }
+
+.mb-55 {
+   margin-bottom: 55px;
+}
+
 .mb-60{
    margin-bottom: 60px;
 }
@@ -185,6 +206,14 @@ section,
 }
 .mrb-80 {
     margin-bottom: -80px;
+}
+
+.ml-60 {
+   margin-left: 60px;
+}
+
+.ml-200 {
+   margin-left: 200px;
 }
 .mr-70{
    margin-right: 70px;
@@ -213,6 +242,31 @@ section,
 .pab {
     padding-bottom: 0;
 }
+
+.pd-120 {
+   padding: 0 120px !important;
+}
+
+.pr-160 {
+   padding-right: 160px;
+}
+
+.pt-80 {
+   padding-top: 80px;
+}
+
+.pt-100 {
+   padding-top: 100px;
+}
+
+.p-150 {
+   padding: 150px 0px!important;
+}
+
+.p-70 {
+   padding-bottom: 70px;
+}
+
 a:focus {
     outline: 0;
 }
@@ -230,12 +284,19 @@ img.pull-right {
     padding: 0;
 }
 
+.pb-130 {
+   padding-bottom: 130px;
+}
+
+img {
+   max-width: 100%;
+}
+
 /* Dropcap */
 .dropcap {
     font-size: 48px;
     line-height: 60px;
     padding: 0 7px;
-    display: inline-block;
     float: left;
     font-weight: 700;
     margin: 5px 15px 5px 0;
@@ -249,7 +310,7 @@ img.pull-right {
    font-weight: 700;
    color: $white-color;
    text-transform: uppercase;
-   background: #ff007a;
+   background: $primary-color;
    height: 50px;
    padding: 0 35px;
    line-height: 50px;
@@ -265,7 +326,6 @@ img.pull-right {
    &:hover{
       color: $white-color;
       background: $primary-dark;
-      box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.15);
    }
    &.fill{
       background: transparent;
@@ -281,7 +341,12 @@ img.pull-right {
    &.btn-round{
       @include border-radius(36px);
    }
+
+    i {
+       padding-left: 5px;
+    }
 }
+
 .btn-link{
    font-size: 16px;
    font-weight: 700;
@@ -297,16 +362,45 @@ img.pull-right {
    }
 }
 
+.btn-link-box {
+   border: 1px solid $white-color;
+   padding: 0px 25px;
+   color: $white-color;
+   display: inline-block;
+   height: 40px;
+   line-height: 40px;
+
+   &:hover {
+      background-color: $radical-red2;
+      border-color: $radical-red2;
+      color: #fff;
+   }
+}
+
+
+
+// Color violet bg
+.color-violet {
+   background: $violet-color;
+   color: $white-color;
+}
+
+// Color Sin bg
+.color-sin {
+   background: $sin-color;
+   color: $white-color;
+}
+
 // default title set
 .section-title,
 .column-title{
-   font-size: 36px;
    font-weight: 800;
-   color: $secondary-color;
    position: relative;
    padding-bottom: 30px;
-   margin-bottom: 85px;
    text-align: center;
+   color: $gray-color2;
+   margin-bottom: 80px; 
+
    &:after{
       @include absolute();
       content: '';
@@ -315,9 +409,9 @@ img.pull-right {
       @include background-content(no-repeat, center center,contain );
       width: 70px;
       height: 10px;
-      margin: auto auto 0;
       top: auto;
       bottom: 0;
+      margin: auto;
    }
    span{
       display: block;
@@ -342,21 +436,111 @@ img.pull-right {
       }
    }
 }
-.column-title{
-   margin-bottom: 35px;
-   line-height: 42px;
-   text-align: left;
-   span{
-      margin-top: 0;
-   }
-   &:after{
-      right: auto;
+
+.title-area {
+   max-width: 650px;
+   padding-bottom: 10px;
+
+   p {
+      font-size: 18px;
    }
 }
-.ts-title{
-   font-size: 24px;
-   
+
+.ts-title {
+   color: $gray-color2;
+   font-weight: 700;
+   margin: 0;
 }
+
+.banner-title {
+   font-size: 70px;
+   color: $white-color;
+   line-height: 74px;
+   letter-spacing: -2.1px;
+   font-weight: 700;
+}
+
+.section-heading {
+   color: $gray-color2;
+   font-weight: 700;
+   margin: 0;
+   font-size: 56px;
+   line-height: 62px;
+   letter-spacing: -1.68px;
+   padding-bottom: 24px;
+}
+
+.md {
+   font-size: 56px;
+   line-height: 62px;
+   letter-spacing: -1.68px;
+   padding-bottom: 24px;
+}
+
+.sm {
+   font-size: 28px;
+   color: $gray-color2;
+   font-family: $poppins;
+   margin: 0;
+   transition: all ease .5s;
+}
+
+.watermark-title {
+      color: #F8F6F4;
+      font-family: "Caveat",Sans-serif;
+      font-size: 330px;
+      font-weight: 700;
+      line-height: .8em;
+      letter-spacing: -9.9px;
+}
+
+.sub-title {
+   color: $green-color;
+   font-family: 'Caveat', cursive;
+   font-size: 52px;
+   letter-spacing: -3.28px;
+   display: inline-block;
+   padding-bottom: 27px;
+}
+
+.normal-sub-title {
+   color: $gray-color5;
+   font-family: "Roboto",Sans-serif;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 26px;
+   letter-spacing: 1.4px;
+}
+
+.section-title-area {
+   padding-bottom: 60px;
+
+   p {
+      font-size: 18px;
+   }
+}
+
+.title-bg {
+   position: relative;
+
+  .watermark-title {
+      position: absolute;
+      top: -160px;
+      left: 0;
+      z-index: -1;
+  } 
+}
+
+.section-title, .column-title {
+   font-size: 36px;
+   font-weight: 800;
+   position: relative;
+   padding-bottom: 30px;
+   text-align: center;
+}
+// .ts-title{
+//    font-size: 24px;
+// }
 
 // hidden-title
 .hidden-title{
@@ -428,4 +612,10 @@ img.pull-right {
 }
 .color-primary{
    color: #ff057c !important;
+}
+
+.body-inner {
+   .container-fluid {
+      padding: 0 60px;
+   }
 }
