@@ -509,6 +509,12 @@ img {
   margin: 0;
 }
 
+.ts-tit {
+  color: #fff;
+  font-weight: 700;
+  margin: 0;
+}
+
 .banner-title {
   font-size: 70px;
   color: #fff;
@@ -2229,7 +2235,7 @@ img {
 .ts-pricing-box .ts-pricing-header .ts-pricing-name {
   font-size: 20px;
   font-weight: 800;
-  color: #3b1d82;
+  color: #00ab6c;
   text-transform: uppercase;
   margin-bottom: 15px;
 }
@@ -2244,7 +2250,7 @@ img {
 }
 .ts-pricing-box .ts-pricing-progress .ts-pricing-value {
   font-weight: 700;
-  color: #e7015e;
+  color: #00ab6c;
   margin-bottom: 25px;
 }
 .ts-pricing-box .ts-progress {
@@ -2259,7 +2265,7 @@ img {
 }
 .ts-pricing-box .promotional-code .promo-code-text {
   font-weight: 400;
-  color: #e7015e;
+  color: #00ab6c;
 }
 .ts-pricing-box .pricing-btn {
   margin-bottom: 25px;
@@ -2370,7 +2376,7 @@ img {
 }
 .ts-pricing-item.active .ts-pricing-name,
 .ts-pricing-item.active .ts-pricing-price span {
-  color: #e7015e;
+  color: #00ab6c;
 }
 
 .ts-pricing.classic .ts-pricing-item {
@@ -2600,7 +2606,7 @@ img {
   resize: none;
 }
 .ts-contact-form .contact-form .form-group .form-control:focus {
-  border-color: #ff2661;
+  border-color: #00ab6c;
   box-shadow: none;
 }
 .ts-contact-form .contact-form .form-group textarea {
